@@ -6,5 +6,3 @@ int main()
     Hammurabi city;
     city.BeginGameplayLoop();
 }
-
-

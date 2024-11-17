@@ -210,7 +210,6 @@ void Hammurabi::OnGameOver()
         cout << "—реднегодовой процент умерших от голода: " << roundf(diedOfHungerStat) << " %" << endl;
         cout << " оличество акров земли на одного жител€: " << roundf(acresPerVillager) << endl;
 
-        //
         if (diedOfHungerStat > 33 && acresPerVillager < 7)
         {
             cout << "»з-за вашей некомпетентности в управлении, народ устроил бунт, и изгнал вас их города.“еперь вы вынуждены влачить жалкое существование в изгнании" << endl;
@@ -302,7 +301,6 @@ void Hammurabi::SellAcres()
 
 void Hammurabi::SowAcres() //засев пшеницы на следующий год     
 {    
-    
     bushels.count -= (int)(acres.bushelsToSowPerAcre * acres.toSow);    
     bushels.harvested = acres.bushelsHarvestPerAcre * acres.toSow;    
 }    
