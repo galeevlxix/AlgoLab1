@@ -1,0 +1,8 @@
+villagers_count 100
+bushels_count 2800
+acres_count 1000
+round 0
+gameOver 0
+bushelsToEatPerVillager 20
+maxAcresToSowPerVillager 10
+bushelsToSowPerAcre 0,5
